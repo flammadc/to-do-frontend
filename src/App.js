@@ -8,7 +8,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="pages ">
+      <div className="pages">
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/other" element={<Other />} />
